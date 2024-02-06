@@ -3,6 +3,8 @@ infrastructure
 
 Based on "Using GitLab CI/CD pipelines with GitHub repositories" at https://www.youtube.com/watch?v=qgl3F2j-1cI
 
+Based on "A zero to production tutorial using Gitlab for CI/CD management." at https://github.com/valandro/gitlab-ci
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
