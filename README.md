@@ -9,6 +9,8 @@ Based on "A collection of gitlab-ci examples" at https://github.com/dokku/gitlab
 
 Based on "example-gitlab-automation" at https://github.com/testmoapp/example-gitlab-automation
 
+Based on "GitLab CI/CD Test Automation Pipeline & Reporting" at https://www.testmo.com/guides/gitlab-ci-test-automation
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
