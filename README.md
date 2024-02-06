@@ -1,7 +1,7 @@
-repository-name
-# Repository Name
+infrastructure
+# Infrastructure
 
-Based on "ABC" at https://www.abc.com/
+Based on "Using GitLab CI/CD pipelines with GitHub repositories" at https://www.youtube.com/watch?v=qgl3F2j-1cI
 
 ## 100 - Introduction
 
