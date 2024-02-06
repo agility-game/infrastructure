@@ -7,6 +7,8 @@ Based on "A zero to production tutorial using Gitlab for CI/CD management." at h
 
 Based on "A collection of gitlab-ci examples" at https://github.com/dokku/gitlab-ci
 
+Based on "example-gitlab-automation" at https://github.com/testmoapp/example-gitlab-automation
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
