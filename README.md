@@ -5,6 +5,8 @@ Based on "Using GitLab CI/CD pipelines with GitHub repositories" at https://www.
 
 Based on "A zero to production tutorial using Gitlab for CI/CD management." at https://github.com/valandro/gitlab-ci
 
+Based on "A collection of gitlab-ci examples" at https://github.com/dokku/gitlab-ci
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
