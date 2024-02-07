@@ -22,11 +22,11 @@ By default, if any branch or tag on the downstream pull mirror (here: GitLab) di
 
 See [README.md](./100/README.md)
 
-== WE ARE HERE ==
-
 ## 200 - Configure pull mirroring
 
 See [README.md](./200/README.md)
+
+== WE ARE HERE ==
 
 ## 300 - Trigger an update by using the API
 
