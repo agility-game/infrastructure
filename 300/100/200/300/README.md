@@ -1,6 +1,6 @@
 # 300 - Workflows
 
-If not already created, create the following file inside of the root directory of your GitHub organization ```agility-game```:
+If not already created, create the following file inside of the root directory of your GitHub organization ```agility-game``` repository ```agility-game/home```:
 
 ```
 # .gitlab-ci.yml
