@@ -38,6 +38,10 @@ $ git push
 
 ![agility-game-home-build-job-6116145344](https://github.com/agility-game/infrastructure/assets/1499433/f8adac09-7454-488c-9a08-b5a702d63073)
 
+https://gitlab.com/agility-game/home/-/jobs
 
+And the log:
 
-== IMAGE GOES HERE ==
+![agility-game-home-build-job-6116145344-log](https://github.com/agility-game/infrastructure/assets/1499433/9aa51950-9de1-462e-8327-2a5c3d9f25e1)
+
+https://gitlab.com/agility-game/home/-/jobs/6116145344
