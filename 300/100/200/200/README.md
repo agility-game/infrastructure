@@ -16,6 +16,22 @@ UI and API updates are subject to default [pull mirroring intervals](https://doc
 
 By default, if any branch or tag on the downstream pull mirror (here: GitLab) diverges from the local repository (here: GitLab), GitLab stops updating the branch. This prevents data loss. Deleted branches and tags in the upstream repository (here: GitHub) are not reflected in the downstream repository.
 
+**INFO**: Items deleted from the downstream pull mirror repository, but still in the upstream repository, are restored upon the next pull. For example: a branch deleted only in the mirrored repository reappears after the next pull.
 
+## 100 - How pull mirroring works
+
+See [README.md](./100/README.md)
 
 == WE ARE HERE ==
+
+## 200 - Configure pull mirroring
+
+See [README.md](./200/README.md)
+
+## 300 - Trigger an update by using the API
+
+See [README.md](./300/README.md)
+
+## 400 - Fix hard failures when mirroring
+
+See [README.md](./400/README.md)
