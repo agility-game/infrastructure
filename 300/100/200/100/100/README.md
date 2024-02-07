@@ -1,6 +1,6 @@
 # 100 - Connect to an external repository
 
-To connect to an external repository:
+To connect to an external repository from within GitLab:
 
 1. On the left sidebar, at the top, select **Create new (+)** and **New project/repository**.
 2. Select **Run CI/CD for external repository**.
