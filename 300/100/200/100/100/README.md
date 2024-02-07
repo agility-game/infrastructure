@@ -20,3 +20,4 @@ If the **Run CI/CD for external repository** option is not available, the GitLab
    **NOTE**: If agility-game/home is not listed, make sure in GitHub [agility-game/home](https://github.com/agility-game/home/settings/access) to have added ```wvanheemstra``` as 1 member under **Direct Access** with Role:**Admin**, by clicking **Add people** and search for ```wvanheemstra```. If a repository with the same group and project is in a ```pending deletion``` status, you need to wait for it to have been deleted.
 10. In GitLab: Click **Connect**.
 11. In GitLab: If in the column **Status** the value is green and labelled **Complete**, the GitHub repository has successfully been connected to Gitlab.
+12. Visit https://gitlab.com/agility-game/home to see it.
