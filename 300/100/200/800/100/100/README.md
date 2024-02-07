@@ -1,6 +1,6 @@
 # 100 - Install Squash TM
 
-Install Sqaush TM on Render.com
+Install Squash TM on Render.com
 
 == WE ARE HERE ==
 
