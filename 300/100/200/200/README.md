@@ -28,4 +28,12 @@ The last section of our file defines our single pipeline job, also called **test
 
 So once you add and commit this file to your GitHub repository (here: ```github.com/agility-game/home```) and commit, GitLab will automatically start a new CI workflow run and execute our test job eventually:
 
+Force a commit by updating the ```README.md``` file at ```https://github.com/agility-game/home```, then push to ```main``` branch:
+
+```
+$ git add README.md
+$ git commit -m 'Forced commit`
+$ git push
+```
+
 == IMAGE GOES HERE ==
