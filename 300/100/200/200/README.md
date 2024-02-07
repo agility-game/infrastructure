@@ -14,7 +14,7 @@ Unlike [push mirrors](https://docs.gitlab.com/ee/user/project/repository/mirror/
 
 UI and API updates are subject to default [pull mirroring intervals](https://docs.gitlab.com/ee/administration/instance_limits.html#pull-mirroring-interval) of 5 minutes. This interval can be configured by self-managed instances.
 
-By default, if any branch or tag on the downstream pull mirror diverges from the local repository, GitLab stops updating the branch. This prevents data loss. Deleted branches and tags in the upstream repository are not reflected in the downstream repository.
+By default, if any branch or tag on the downstream pull mirror (here: GitLab) diverges from the local repository (here: GitLab), GitLab stops updating the branch. This prevents data loss. Deleted branches and tags in the upstream repository (here: GitHub) are not reflected in the downstream repository.
 
 
 
