@@ -32,7 +32,7 @@ Force a commit by updating the ```README.md``` file at ```https://github.com/agi
 
 ```
 $ git add README.md
-$ git commit -m 'Forced commit`
+$ git commit -m 'Update README.md`
 $ git push
 ```
 
