@@ -11,6 +11,8 @@ Based on "example-gitlab-automation" at https://github.com/testmoapp/example-git
 
 Based on "GitLab CI/CD Test Automation Pipeline & Reporting" at https://www.testmo.com/guides/gitlab-ci-test-automation
 
+Based on "Handle Fine-Grained Personal Access Tokens in GitHub Import" at https://gitlab.com/gitlab-org/gitlab/-/issues/439110
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
