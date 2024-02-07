@@ -26,11 +26,11 @@ See [README.md](./100/README.md)
 
 See [README.md](./200/README.md)
 
-== WE ARE HERE ==
-
 ## 300 - Trigger an update by using the API
 
 See [README.md](./300/README.md)
+
+== WE ARE HERE ==
 
 ## 400 - Fix hard failures when mirroring
 
