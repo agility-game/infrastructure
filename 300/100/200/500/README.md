@@ -9,4 +9,25 @@ With the ```node``` Docker container we use, everything is already pre-installed
 $ npm install --save-dev mocha chai mocha-junit-reporter
 ```
 
+Running this command will download and install the packages and will also create new ```package.json``` and ```package-lock.json``` files in our project directory with our dependencies (make sure to also commit these files to your repository). When we then check out the code of our repository on another machine or as part of our GitLab CI/CD run in the future, we can easily install all required packages based on these configuration files.
+
+We also want to make it easier to run our automated tests. For this we are adding a few script aliases to the ```scripts``` section of the ```package.json``` file:
+
+```
+// package.json
+{
+  "scripts": {
+    "mocha": "npx mocha",
+    "mocha-junit": "npx mocha --reporter node_modules/mocha-junit-reporter --reporter-options jenkinsMode=1,outputs=1,mochaFile=results/mocha-test-results.xml"
+  },
+  "devDependencies": {
+    "chai": "^5.0.3",
+    "mocha": "^10.2.0",
+    "mocha-junit-reporter": "^2.2.1"
+  }
+}
+```
+github.com/agility-game/home/package.json
+
+
 == WE ARE HERE ==
