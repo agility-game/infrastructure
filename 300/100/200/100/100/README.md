@@ -12,10 +12,11 @@ If the **Run CI/CD for external repository** option is not available, the GitLab
 5. In Github: For **Token name** enter ```Agility-Game Home PAT```. For **Expiration** choose ```Custom``` end set the date to the last day (here: 31 December) of the current year, so we know when to extend our access tokens. For **Description** enter ```Agility Game Home Personal Access Token```. For **Resource owner** choose ```agility-game```. For **Repository access** choose ```Only select repositories``` and pick ```agility-game/home```. For **Permissions**, for **Commit Status** enter ```Read-only```, for **Contents** enter ```Read-only```, for **Discussions** enter ```Read-only```, for **Issues** enter ```Read-only```, for **Metadata** (mandatory) enter ```Read-only```, for **Pages** enter ```Read-only```, for **Pull requests** enter ```Read-only```. Please note, ```admin``` access is not required. **IMPORTANT**: Copy its value (github_pat_*****************************************) to a safe place for later use.
 6. In GitLab: After having created the Personal Access Token in GitHub, enter its value (github_pat_*****************************************) into the input field in GitLab. Click **Authenticate**.
 7. In GitLab: You will be prompted ```Import repositories from GitHub```. Switch to the tab **Collaborated**. Untick the checkboxes under **Advanced import settings**, especially uncheck ```Import collaborators``` as they consume seats on our GitLab instance, which is costly.
-8. Choose the following:
+8. In GitLab: Choose the following:
    | From GitHub | To GitLab |
    | -- | -- |
    | agility-game/home | agility-game/home |
    
    **NOTE**: If agility-game/home is not listed, make sure in GitHub [agility-game/home](https://github.com/agility-game/home/settings/access) to have added ```wvanheemstra``` as 1 member under **Direct Access** with Role:**Admin**, by clicking **Add people** and search for ```wvanheemstra```. If a repository with the same group and project is in a ```pending deletion``` status, you need to wait for it to have been deleted.
-10. Click **Connect**
+10. In GitLab: Click **Connect**.
+11. In GitLab: If in the column **Status** the value is green and labelled **Complete**, the GitHub repository has successfully been connected to Gitlab.
