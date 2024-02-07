@@ -16,4 +16,5 @@ If the **Run CI/CD for external repository** option is not available, the GitLab
    | From GitHub | To GitLab |
    | -- | -- |
    | agility-game/home | agility-game/home |
-9. Click **Connect**
+   **NOTE**: If agility-game/home is not listed, make sure in GitHub [agility-game/home](https://github.com/agility-game/home/settings/access) to have added ```wvanheemstra``` as 1 member under **Direct Access** with Role:**Admin**, by clicking **Add people** and search for ```wvanheemstra```.
+10. Click **Connect**
