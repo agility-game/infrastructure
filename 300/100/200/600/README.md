@@ -13,6 +13,7 @@ stages:
 test:
   stage: test
   script:
+    - echo "Hello world"
     - npm ci
     - npm run mocha
 ```
