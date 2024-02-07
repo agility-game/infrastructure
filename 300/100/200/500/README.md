@@ -36,6 +36,8 @@ We also need an actual ```test suite``` for this example project. Mocha/Chai mak
 
 One of the included tests fails with a random chance of 50%. This way you can see and test both full passes and failures in GitLab CI/CD and see how both scenarios work.
 
+**NOTE**: We have coded below file so that it adheres to the newer ES Module format, using ```import``` instead of ```require```, and ```"type": "module"``` in ```package.json```.
+
 ```
 // test.js
 import * as chai from 'chai';
@@ -100,4 +102,4 @@ We can first try our tests and run them in our local development container. You 
       at process.processImmediate (node:internal/timers:478:21)
 ```
 
-All good!
+All good! Failings are deliberately created in the test script to test bot cases: pass and fail. Don't worry : )
