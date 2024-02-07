@@ -29,5 +29,43 @@ We also want to make it easier to run our automated tests. For this we are addin
 ```
 github.com/agility-game/home/package.json
 
+We also need an actual ```test suite``` for this example project. Mocha/Chai makes it easy to create some simple test cases. Just add a new ```test.js``` file and add some tests like shown in the example below. You can also find the full file in this [article's GitLab project](https://gitlab.com/testmoapp/example-gitlab-automation).
+
+One of the included tests fails with a random chance of 50%. This way you can see and test both full passes and failures in GitLab CI/CD and see how both scenarios work.
+
+```
+// test.js
+const chai = require('chai');
+const assert = chai.assert;
+
+describe('files', function () {
+    describe('export', function () {
+        it('should export pdf', function () {
+            assert.isTrue(true);
+        });
+
+        it('should export html', function () {
+            assert.isTrue(true);
+        });
+
+        it('should export yml', function () {
+            assert.isTrue(true);
+        });
+
+        it('should export text', function () {
+            // Fail in 50% of cases
+            if (Math.random() < 0.5) {
+                throw new Error('An exception occurred');
+            } else {
+                assert.isTrue(true);
+            }
+        });
+    });
+	
+	// [..]
+});
+```
+
+github.com/agility-game/home/test.js
 
 == WE ARE HERE ==
