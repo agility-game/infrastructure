@@ -27,5 +27,3 @@ See [README.md](./100/README.md)
 ## 200 - Trigger pipelines for mirror updates
 
 See [README.md](./200/README.md)
-
-== WE ARE HERE ==
