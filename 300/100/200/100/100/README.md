@@ -17,5 +17,5 @@ If the **Run CI/CD for external repository** option is not available, the GitLab
    | -- | -- |
    | agility-game/home | agility-game/home |
    
-   **NOTE**: If agility-game/home is not listed, make sure in GitHub [agility-game/home](https://github.com/agility-game/home/settings/access) to have added ```wvanheemstra``` as 1 member under **Direct Access** with Role:**Admin**, by clicking **Add people** and search for ```wvanheemstra```. If a repository with the same group and project is in a ```pending deletion``` status, you need to wait for it to haveb been deleted.
+   **NOTE**: If agility-game/home is not listed, make sure in GitHub [agility-game/home](https://github.com/agility-game/home/settings/access) to have added ```wvanheemstra``` as 1 member under **Direct Access** with Role:**Admin**, by clicking **Add people** and search for ```wvanheemstra```. If a repository with the same group and project is in a ```pending deletion``` status, you need to wait for it to have been deleted.
 10. Click **Connect**
