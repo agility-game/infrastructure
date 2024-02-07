@@ -13,6 +13,8 @@ Based on "GitLab CI/CD Test Automation Pipeline & Reporting" at https://www.test
 
 Based on "Handle Fine-Grained Personal Access Tokens in GitHub Import" at https://gitlab.com/gitlab-org/gitlab/-/issues/439110
 
+Based on "Squash TM" at https://docs.gitlab.com/ee/user/project/integrations/squash_tm.html
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
