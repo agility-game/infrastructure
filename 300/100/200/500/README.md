@@ -16,6 +16,9 @@ We also want to make it easier to run our automated tests. For this we are addin
 ```
 // package.json
 {
+  "name": "agility-game-home",
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "mocha": "npx mocha",
     "mocha-junit": "npx mocha --reporter node_modules/mocha-junit-reporter --reporter-options jenkinsMode=1,outputs=1,mochaFile=results/mocha-test-results.xml"
@@ -35,7 +38,7 @@ One of the included tests fails with a random chance of 50%. This way you can se
 
 ```
 // test.js
-const chai = require('chai');
+import * as chai from 'chai';
 const assert = chai.assert;
 
 describe('files', function () {
@@ -71,20 +74,30 @@ github.com/agility-game/home/test.js
 We can first try our tests and run them in our local development container. You can use the script alias we've added above to run the tests; simply run ```npm run mocha``` inside the container. The output should look like this (sometimes passing or failing one test if you run the command multiple times):
 
 ```
-$ npm run mocha
+# npm run mocha
 
-files
+> agility-game-home@1.0.0 mocha
+> npx mocha
+
+
+
+  files
     export
       ✔ should export pdf
       ✔ should export html
       ✔ should export yml
       1) should export text
-    import
-      ✔ should import pdf
-      ✔ should import html
-      ✔ should import yml
-      ✔ should import text
 
-  7 passing (17ms)
+
+  3 passing (6ms)
   1 failing
+
+  1) files
+       export
+         should export text:
+     Error: An exception occurred
+      at Context.<anonymous> (file:///project/test.js:22:23)
+      at process.processImmediate (node:internal/timers:478:21)
 ```
+
+All good!
