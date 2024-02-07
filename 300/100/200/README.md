@@ -20,4 +20,8 @@ See [README.md](./400/README.md)
 
 See [README.md](./500/README.md)
 
+## 600 - Running the Tests from GitLab CI/CD
+
+See [README.md](./600/README.md)
+
 == WE ARE HERE ==
