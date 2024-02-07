@@ -68,4 +68,23 @@ describe('files', function () {
 
 github.com/agility-game/home/test.js
 
-== WE ARE HERE ==
+We can first try our tests and run them in our local development container. You can use the script alias we've added above to run the tests; simply run ```npm run mocha``` inside the container. The output should look like this (sometimes passing or failing one test if you run the command multiple times):
+
+```
+$ npm run mocha
+
+files
+    export
+      ✔ should export pdf
+      ✔ should export html
+      ✔ should export yml
+      1) should export text
+    import
+      ✔ should import pdf
+      ✔ should import html
+      ✔ should import yml
+      ✔ should import text
+
+  7 passing (17ms)
+  1 failing
+```
