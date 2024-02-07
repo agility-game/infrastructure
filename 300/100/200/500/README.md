@@ -102,4 +102,4 @@ We can first try our tests and run them in our local development container. You 
       at process.processImmediate (node:internal/timers:478:21)
 ```
 
-All good! Failings are deliberately created in the test script to test bot cases: pass and fail. Don't worry : )
+All good! Failings are deliberately created in the test script to test both cases: pass and fail. Don't worry : )
