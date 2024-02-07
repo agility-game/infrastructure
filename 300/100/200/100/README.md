@@ -1,2 +1,2 @@
-# 200 - Configure GitHub as the source code repository for Gitlab
+# 100 - Configure GitHub as the source code repository for Gitlab
 
