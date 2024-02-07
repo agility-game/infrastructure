@@ -22,6 +22,7 @@ github.com/agility-game/home/dev/docker-compose.yml
 We can then easily start our Docker container and run code inside it by using the ```docker compose``` command to launch a shell. We can then run any commands and start our tests inside the container without affecting our main machine:
 
 ```
+$ cd dev
 $ docker compose run node bash
 Creating dev_node_run ... done
 root@d433d79213d7:/project$ # in the container
