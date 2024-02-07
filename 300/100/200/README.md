@@ -24,4 +24,12 @@ See [README.md](./500/README.md)
 
 See [README.md](./600/README.md)
 
+## 700 - Faster CI Execution with Caching
+
+See [README.md](./700/README.md)
+
 == WE ARE HERE ==
+
+## 800 - Automation Reporting to Test Management
+
+See [README.md](./800/README.md)
