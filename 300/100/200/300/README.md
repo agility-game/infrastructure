@@ -36,4 +36,8 @@ $ git commit -m 'Update README.md`
 $ git push
 ```
 
+![agility-game-home-build-job-6116145344](https://github.com/agility-game/infrastructure/assets/1499433/f8adac09-7454-488c-9a08-b5a702d63073)
+
+
+
 == IMAGE GOES HERE ==
