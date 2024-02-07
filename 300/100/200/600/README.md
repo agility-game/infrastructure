@@ -28,5 +28,4 @@ This is all we need to do to set up and run our automated test suite with GitLab
 
 So when you commit your new workflow file (to GitHub), GitLab will automatically start a new run for our workflow (after mirroring from GitHub). It will get the repository code, install our package dependencies and finally run our tests. The output will look something like this (depending on whether the run passes or fails):
 
-
-== WE ARE HERE ==
+![agility-game-home-build-job-6118239463-log](https://github.com/agility-game/infrastructure/assets/1499433/d421fc65-0a99-4deb-b07a-3329d40ced4a)
