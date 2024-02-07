@@ -20,4 +20,6 @@ If the **Run CI/CD for external repository** option is not available, the GitLab
    **NOTE**: If agility-game/home is not listed, make sure in GitHub [agility-game/home](https://github.com/agility-game/home/settings/access) to have added ```wvanheemstra``` as 1 member under **Direct Access** with Role:**Admin**, by clicking **Add people** and search for ```wvanheemstra```. If a repository with the same group and project is in a ```pending deletion``` status, you need to wait for it to have been deleted.
 10. In GitLab: Click **Connect**.
 11. In GitLab: If in the column **Status** the value is green and labelled **Complete**, the GitHub repository has successfully been connected to Gitlab.
-12. Visit https://gitlab.com/agility-game/home to see it.
+12. In GitLab: Visit https://gitlab.com/agility-game/home to see it.
+13. In GitLab: If you see a banner that states: ```You can't push or pull repositories using SSH until you add an SSH key to your profile.```, push the button **Add SSH key** and follow the instructions.
+14. In GitLab: If you see a banner that states: ```Your account is authenticated with SSO or SAML. To push and pull over HTTPS with Git using this account, you must set a password or set up a Personal Access Token to use instead of a password. For more information, see Clone with HTTPS.```, click the link **set up a Personal Access Token** and follow the instructions.
