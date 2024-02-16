@@ -6,7 +6,7 @@ Here we descibe how the infrastructure for Agility Game is set up, using:
 - GitLab.com for Continuous Integration (CI) / Continuous Deployment (CD),
 - and ultimately Render.com for hosting our deployable applications.
 
-![Slide1](https://github.com/agility-game/infrastructure/assets/1499433/9cce08b2-91db-45c5-ae5c-20a5f3fc329b)
+![Slide1](https://github.com/agility-game/infrastructure/assets/1499433/881de6ac-d434-4801-b6ea-285bb03165ca)
 
 Agility Game - Infrastructure: Data
 
