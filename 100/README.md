@@ -10,7 +10,7 @@ Here we descibe how the infrastructure for Agility Game is set up, using:
 
 Agility Game - Infrastructure: Data
 
-![Slide2](https://github.com/agility-game/infrastructure/assets/1499433/b8e00069-3750-4a89-b705-641c9ca53395)
+![Slide2](https://github.com/agility-game/infrastructure/assets/1499433/528367a8-dfd0-4f46-b4c1-11c5a507b6ea)
 
 Agility Game - Infrastructure: Applications
 
