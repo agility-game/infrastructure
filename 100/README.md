@@ -18,6 +18,6 @@ Agility Game - Infrastructure: Applications
 
 Agility Game - Infrastructure: ToolJet
 
-![Slide4](https://github.com/agility-game/infrastructure/assets/1499433/82b591db-3841-4c66-aac0-0c4b3d40cb95)
+![Slide4](https://github.com/agility-game/infrastructure/assets/1499433/77f9f63a-54a2-44ec-94d6-cae93da65e1a)
 
 Agility Game - Infrastructure: Microservices
