@@ -7,7 +7,7 @@ So simply create the following basic workflow in the root directory of your ```a
 ```
 # .gitlab-ci.yml
 default:
-  image: node:19
+  image: node:20
 
 stages:
   - test
@@ -16,6 +16,15 @@ test:
   stage: test
   script:
     - echo "Hello world"
+    - npm ci --cache .npm --prefer-offline
+    - npm run mocha
+
+  cache:
+    - key:
+        files:
+          - package-lock.json
+      paths:
+        - .npm/
 ```
 .gitlab-ci.yml
 
