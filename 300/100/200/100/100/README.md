@@ -26,6 +26,8 @@ If the **Run CI/CD for external repository** option is not available, the GitLab
 
 **NOTE**: Gitlab allows [automatic mirroring](https://docs.gitlab.com/ee/workflow/repository_mirroring.html) but it appears to be a [paid](https://about.gitlab.com/pricing/) feature.
 
+If you’re using GitLab.com then you normally would need a **Bronze** subscription to do so, but Free users do have access to Pull mirroring **for a limited time**. 
+
 Navigate to your project’s **Settings** > **Repository** and expand the **Mirroring repositories** section (only seen if you have a paid for version).
 
 - Enter a repository URL. For example: ```https://github.com/agility-game/home```
