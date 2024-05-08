@@ -23,3 +23,23 @@ If the **Run CI/CD for external repository** option is not available, the GitLab
 12. In GitLab: Visit https://gitlab.com/agility-game/home to see it.
 13. In GitLab: If you see a banner that states: ```You can't push or pull repositories using SSH until you add an SSH key to your profile.```, push the button **Add SSH key** and follow the instructions.
 14. In GitLab: If you see a banner that states: ```Your account is authenticated with SSO or SAML. To push and pull over HTTPS with Git using this account, you must set a password or set up a Personal Access Token to use instead of a password. For more information, see Clone with HTTPS.```, click the link **set up a Personal Access Token** and follow the instructions.
+
+**NOTE**: Gitlab allows [automatic mirroring](https://docs.gitlab.com/ee/workflow/repository_mirroring.html) but it appears to be a [paid](https://about.gitlab.com/pricing/) feature.
+
+Navigate to your project’s Settings > Repository and expand the Mirroring repositories section (only seen if you have a paid for version).
+
+- Enter a repository URL. For example: ```https://github.com/agility-game/home```
+
+- Select **Pull** from the Mirror direction dropdown.
+
+- Select an authentication method from the Authentication method dropdown, if necessary.
+
+- If necessary, check the following boxes:
+
+- - Overwrite diverged branches.
+
+- - Trigger pipelines for mirror updates.
+
+- - Only mirror protected branches.
+
+- Click the Mirror repository button to save the configuration.
