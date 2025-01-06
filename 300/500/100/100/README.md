@@ -1,1 +1,3 @@
-# 100 - ...
+# 100 - GitLab Configuration File in GitHub
+
+
