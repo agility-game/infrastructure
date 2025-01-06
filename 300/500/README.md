@@ -1,5 +1,7 @@
 # 500 - Agility Game: Agility Game
 
+See also [GitLab vs GitHub](https://c5r.medium.com/gitlab-vs-github-866d476e3b6e)
+
 ## 100 - GitHub for Source Code Management
 
 See [README.md](./100/README.md)
