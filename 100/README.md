@@ -1,5 +1,7 @@
 # 100 - Introduction
 
+See also [GitLab vs GitHub](https://c5r.medium.com/gitlab-vs-github-866d476e3b6e)
+
 Here we descibe how the infrastructure for Agility Game is set up, using:
 
 - GitHub.com repositories for source code management,
