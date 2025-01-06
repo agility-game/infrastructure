@@ -32,4 +32,6 @@ After creating the Personal Access Token, make sure to safe its value somewhere 
   - g. On the [Import repositories from GitHub](https://gitlab.com/import/github/status) page, choose the **Collaborated** tab. **WARNING**: Don't tick **Import collaborators** as it will consume seats on your Gitlab instance.
   - h. Find the From Github **agility-game/agility-game** line, for To GitLab set ```agility-game/agility-game``` and choose **Import**. **NOTE**: If this repository is not listed, make sure that you (here: wvanheemstra) as you are known in GitLab are a [collaborator of the repository in GitHub](https://github.com/agility-game/agility-game/settings/access?guidance_task=).
 
+Now you can browse https://gitlab.com/agility-game/agility-game.
+
 That's all folks!
