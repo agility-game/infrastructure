@@ -1,5 +1,7 @@
 # 100 - GitHub for Source Code Management
 
+## 100 - GitLab Configuration File in GitHub
+
 GitLab automatically enables CI/CD pipelines for new projects. It's just a matter of adding a new configuration file called ```.gitlab-ci.yml``` to your GitHub code repository (https://github.com/agility-game/agility-game) with instructions for GitLab on what to run. 
 
 So simply create the following basic workflow in the root directory of your ```agility-game/agility-game``` repository and commit it:
@@ -27,5 +29,9 @@ test:
         - .npm/
 ```
 .gitlab-ci.yml
+
+## 200 - Using GitLab CI/CD with a GitHub Repository
+
+See [README.md](./200/README.md)
 
 === WE ARE HERE =====
