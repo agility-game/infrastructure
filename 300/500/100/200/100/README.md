@@ -6,7 +6,7 @@ To perform a one-off authorization with GitHub to grant GitLab access your repos
 
 1. In GitHub, create a token:
    
-  - a. Open [https://github.com/settings/tokens/new](https://github.com/settings/tokens/new). **NOTE**: Nowadays, choose the ```Fine-grained tokens```, instaed of the ```Tokens (classic)```.
+  - a. Open [https://github.com/settings/tokens/new](https://github.com/settings/tokens/new). **NOTE**: Nowadays, choose the ```Fine-grained tokens```, instead of the ```Tokens (classic)```.
   
   - b. Create a Personal Access Token by clicking **Generate new token**.
   
