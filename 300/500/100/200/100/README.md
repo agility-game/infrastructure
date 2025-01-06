@@ -22,15 +22,15 @@ To perform a one-off authorization with GitHub to grant GitLab access your repos
 
 After creating the Personal Access Token, make sure to safe its value somewhere where it can be retrieved alter, but kept from prying eyes.
 
-2. In GitLab, create a sub project:
-  - a. On the left sidebar choose the **[Agility Game](https://gitlab.com/agility-game)** group, at the top right, select **New subgroup** and give its a Subgroup name of **Agility Game**.
-  - b. Subgroup URL (here: https://gitlab.com/agility-game) / Subgroup slug (here: agility-game)
-  - c. Set visibility level to: **Private** - The group and its projects can only be viewed by members.
-  - d. Click **Create subgroup**
-
-3. In GitLab, enter the Personal Access Token from GitHub:
-  - a. On the [Agility Game](https://gitlab.com/agility-game) group page, click on **Settings**, followed by **Integrations**.
-    
+2. In GitLab, enter the Personal Access Token from GitHub:
+  - a. On the [Agility Game](https://gitlab.com/agility-game) group page, click on **Settings**, followed by **Projects**.
+  - b. Click on **New project**.
+  - c. Choose **Run CI/CD for external repository**.
+  - d. Click **GitHub**
+  - e. Enter the **Personal Access Token** from GitHub, created in step 1 (named: ```Agility-Game Agility-Game PAT```).
+  - f. Click **Authenticate**.
+  - 
+  - 
 Select Run CI/CD for external repository.
 Select GitHub.
 For Personal access token, paste the token.
