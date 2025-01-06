@@ -30,7 +30,7 @@ After creating the Personal Access Token, make sure to safe its value somewhere 
   - e. Enter the **Personal Access Token** from GitHub, created in step 1 (named: ```Agility-Game Agility-Game PAT```).
   - f. Click **Authenticate**.
   - g. On the [Import repositories from GitHub](https://gitlab.com/import/github/status) page, choose the **Collaborated** tab.
-  - h. Pick the From Github **agility-game/agility-game** line and choose **Import**. **NOTE**: If this repository is not listed, make sure that you (here: wvanheemstra) as you are known in GitLab are a collaborator of the repository in GitHub.
+  - h. Pick the From Github **agility-game/agility-game** line and choose **Import**. **NOTE**: If this repository is not listed, make sure that you (here: wvanheemstra) as you are known in GitLab are a [collaborator of the repository in GitHub](https://github.com/agility-game/agility-game/settings/access?guidance_task=).
   - 
 Select Run CI/CD for external repository.
 Select GitHub.
